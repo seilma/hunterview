@@ -14,5 +14,6 @@ namespace Domain
         public bool Valid { get; set; }
         public Speciality Speciality { get; set; }
         public JobSeeker Jobseeker { get; set; }
+
     }
 }

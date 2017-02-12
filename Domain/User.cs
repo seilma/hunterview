@@ -25,6 +25,7 @@ namespace Domain
         public ICollection<Status> Status { get; set; }
         public ICollection<Comment> Comments { get; set; }
         public ICollection<Message> Messages { get; set; }
+        public ICollection<Speciality> Specialities { get; set; }
 
     }
 }

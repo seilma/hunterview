@@ -14,6 +14,7 @@ namespace Domain
         public bool Valid { get; set; }
         public Status Status { get; set; }
         public JobSeeker User { get; set; }
-       
+        public int rate { get; set; }
+
     }
 }

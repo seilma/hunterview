@@ -16,7 +16,7 @@ namespace Domain
         public DateTime ExprerationDate { get; set; }
         public String Description { get; set; }
         public int Expertise { get; set; }
-        public ICollection<Speciality> Domaines { get; set; }
+        public ICollection<Speciality> Specialities { get; set; }
         public State State { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime Duration { get; set; }
